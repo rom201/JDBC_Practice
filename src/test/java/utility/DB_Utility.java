@@ -51,17 +51,6 @@ public class DB_Utility {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     public static ResultSet runQuery(String query) {
         try {
             stmnt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
